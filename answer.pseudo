@@ -1,0 +1,6 @@
+#Using ruby for backend
+
+def gennamerand(name)                                       # Method is defined at this line which accepts a parameter 'name'
+	p name.capitalize + " " +rand(6..15).to_s               # concatenating name and the generated number
+end                                                         # Method end
+
